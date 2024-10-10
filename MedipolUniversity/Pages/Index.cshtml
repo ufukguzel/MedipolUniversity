@@ -1,0 +1,86 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Medipol University - Home";
+}
+
+<!-- Ana Sayfa Başlık ve Tanıtım -->
+<div class="jumbotron text-center bg-primary text-white py-5">
+    <h1 class="display-4">Welcome to Medipol University</h1>
+    <p class="lead">Leading the future with excellence in education, research, and innovation.</p>
+    <a href="#" class="btn btn-light btn-lg mt-4">Learn More</a>
+</div>
+
+<!-- Üçlü Bölüm: Üniversite Hakkında, Etkinlikler, Haberler -->
+<div class="container mt-5">
+    <div class="row">
+        <!-- Üniversite Hakkında -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <img src="/images/campus.jpg" class="card-img-top" alt="Campus Image">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">About Medipol University</h5>
+                    <p class="card-text">
+                        Medipol University, a center for academic excellence, offers a wide range of undergraduate and graduate programs. Our mission is to inspire and prepare students for the challenges of tomorrow.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Etkinlikler -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title text-primary">Upcoming Events</h5>
+                    <ul class="list-group list-group-flush mb-3">
+                        <li class="list-group-item">October 10: International Student Symposium</li>
+                        <li class="list-group-item">November 5: Career Development Workshop</li>
+                        <li class="list-group-item">December 12: Medipol Science Fair</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline-primary mt-auto">View All Events</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Haberler -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title text-primary">Latest News</h5>
+                    <ul class="list-group list-group-flush mb-3">
+                        <li class="list-group-item">New Research Center Opens</li>
+                        <li class="list-group-item">Medipol Launches Online Learning Platform</li>
+                        <li class="list-group-item">Partnership with International Universities</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline-primary mt-auto">Read More News</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Sık Kullanılan Bağlantılar -->
+<div class="container mt-5">
+    <div class="row text-center">
+        <div class="col-lg-3 col-md-6 mb-4">
+            <a href="#" class="btn btn-outline-secondary btn-lg w-100">Apply Now</a>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+            <a href="#" class="btn btn-outline-secondary btn-lg w-100">Academic Calendar</a>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+            <a href="#" class="btn btn-outline-secondary btn-lg w-100">Student Portal</a>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+            <a href="#" class="btn btn-outline-secondary btn-lg w-100">Library</a>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-primary text-white text-center py-4 mt-5">
+    <p>&copy; 2024 Medipol University. All Rights Reserved.</p>
+    <a href="#" class="text-white">Privacy Policy</a> |
+    <a href="#" class="text-white">Contact Us</a>
+</footer>
